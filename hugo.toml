@@ -1,0 +1,33 @@
+baseURL = 'https://systems.trick.art/'
+languageCode = 'ja'
+title = 'trickart systems'
+theme = 'PaperMod'
+paginate = 10
+
+[outputs]
+  home = ['HTML', 'JSON']
+  page = ['HTML']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']
+
+[params]
+  description = 'trickart systems'
+  defaultTheme = 'auto'
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  disableSpecial1stPost = true
+
+  [params.profileMode]
+    enabled = true
+    imageUrl = 'https://avatars.githubusercontent.com/u/4015060'
+    imageTitle = 'trickart'
+    imageWidth = 120
+    imageHeight = 120
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
