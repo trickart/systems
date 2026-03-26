@@ -26,6 +26,14 @@ paginate = 10
     imageWidth = 120
     imageHeight = 120
 
+    [[params.socialIcons]]
+      name = 'GitHub'
+      url = 'https://github.com/trickart'
+    [[params.socialIcons]]
+      name = 'Twitter'
+      url = 'https://twitter.com/trickart4121'
+      
+
 [menu]
   [[menu.main]]
     name = 'Works'
