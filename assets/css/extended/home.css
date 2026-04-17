@@ -1,0 +1,9 @@
+.home-with-works .profile {
+    min-height: auto;
+    margin-bottom: calc(var(--gap) * 2);
+}
+
+.home-works-heading {
+    margin-bottom: var(--gap);
+    text-align: center;
+}
