@@ -11,6 +11,11 @@ paginate = 10
   taxonomy = ['HTML']
   term = ['HTML']
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = 'trickart systems'
   defaultTheme = 'auto'
